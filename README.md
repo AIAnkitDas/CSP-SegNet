@@ -8,3 +8,20 @@
 </p>
 
 Glaucoma is a critical eye condition that causes permanent blindness by damaging the Optic Nerve Head (ONH). Ophthalmologists diagnose glaucoma in patients by conducting morphological analysis of Optic Cup (OC) and Optic Disc (OD) regions in retinal fundus images. The implementation of lightweight and robust Artificial-Intelligence-enabled tools to deliver prompt glaucoma diagnostics is paramount in biomedical engineering. This article proposes CSP-SegNet, a novel Channel-Spatial-Pixel (CSP) attention-integrated lightweight encoder-decoder architecture for joint semantic segmentation of OC and OD in retinal fundus images. The crux of this work lies in the novel Channel-Spatial-Pixel (CSP) attention module which facilitates enhanced feature representation from different levels of abstraction with faster convergence. The efficacy of novel CSP attention is analyzed using Grad-CAM–based attention map evolution for explainable interpretation. CSP-SegNet is a novel depthwise separable convolutional neural network comprising approximately 1.54M trainable parameters with 13.3G FLOPS and hence it is highly lightweight compared to other methods. This paper has rigidly analyzed the robustness and generalization ability of CSP-SegNet in contrast to state-of-the-art segmentation networks, across the REFUGE and ORIGA datasets with cross-dataset evaluation on Drishti-GS. The proposed CSP-SegNet has obtained statistically significant results in outperforming many competing methods for joint semantic segmentation of OC and OD across Dice Similarity Coefficient (DSC) and Intersection over Union (IoU) metrics. The quantitative and qualitative evaluation results justify the superiority of CSP-SegNet and effectiveness of CSP attention in terms of generalization ability, segmentation performance, robustness across distribution shift and compactness.
+
+
+## Citation
+
+If you find this work useful, please cite:
+
+@article{das2026interpretable,
+  title={Interpretable lightweight attention-guided deep learning framework for retinal optic disc and optic cup segmentation},
+  author={Das, Ankit and Bandyopadhyay, Saubhik and Banik, Debapriya and Bhattacharjee, Debotosh},
+  journal={Neural Computing and Applications},
+  volume={38},
+  year={2026},
+  publisher={Springer},
+  doi={10.1007/s00521-026-12036-9}
+}
+
+Das, A., Bandyopadhyay, S., Banik, D. et al. Interpretable lightweight attention-guided deep learning framework for retinal optic disc and optic cup segmentation. Neural Comput & Applic 38, 432 (2026). https://doi.org/10.1007/s00521-026-12036-9
